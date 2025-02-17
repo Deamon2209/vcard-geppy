@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Digitale Visitenkarte von Max Mustermann">
-    <title>Max Mustermann | Digitale Visitenkarte</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Geppy´s Packcenter</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .box {
+            background-color: white;
+            color: black;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+        }
+        .logo {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <img src="Firmenlogo.png" alt="Firmenlogo" class="logo">
+        <h1>Willkommen bei Geppy´s Packcenter</h1>
+        <p>Im Folgenden finden Sie unseren Online-Shop im Internet, sowie unsere Servicedaten für Sie.<br>
+        Sollten Sie noch Fragen zu einem unserer Produkte haben:</p>
+        
+        <div class="box">
+            <strong>Rufnummer:</strong><br>
+            0174 8410696
+        </div>
 
-    <header class="header">
-        <h1>Max Mustermann</h1>
-        <p class="title">Webentwickler & Digitaler Unternehmer</p>
-        <img src="profilbild.jpg" alt="Max Mustermann" class="profile-image">
-    </header>
-
-    <section class="contact-info">
-        <h2>Kontaktinformationen</h2>
-        <ul>
-            <li><strong>Telefon:</strong> +49 123 456 789</li>
-            <li><strong>Email:</strong> max.mustermann@example.com</li>
-            <li><strong>Adresse:</strong> Musterstraße 1, 12345 Berlin, Deutschland</li>
-        </ul>
-    </section>
-
-    <section class="social-links">
-        <h2>Social Media</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/maxmustermann" target="_blank">LinkedIn</a></li>
-            <li><a href="https://twitter.com/maxmustermann" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/maxmustermann" target="_blank">GitHub</a></li>
-        </ul>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2025 Max Mustermann | Alle Rechte vorbehalten</p>
-    </footer>
-
+        <div class="box">
+            <strong>Zu unserer Webseite:</strong><br>
+            <a href="https://geppys-packcenter.de" target="_blank">Geppy´s Packcenter</a>
+        </div>
+        
+        <div class="box">
+            <strong>Unsere Mailadresse bei Ihren Anliegen:</strong><br>
+            <a href="mailto:info@geppys-packcenter.de">info@geppys-packcenter.de</a>
+        </div>
+        
+        <div class="box">
+            <strong>Unsere Hausanschrift bei Briefwechsel oder persönlichen Anliegen:</strong><br>
+            Musterstraße 1, 12345 Musterstadt, Deutschland
+        </div>
+    </div>
 </body>
 </html>
